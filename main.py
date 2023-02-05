@@ -104,7 +104,7 @@ STICKER = [
       STKR8,
 ]
 START = f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
+**๏ ʜᴇʏ, ɪ ᴀᴍ [{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}]({https://te.legra.ph/file/370114a8d01cbc3f432ef.jpg})**
 **➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
 **──────────────**
 **➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
@@ -112,13 +112,13 @@ START = f"""
 """
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"t.me/ii_Romana_ii}"),
+        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/TheLove2Forever}"),
     ],
     [
         InlineKeyboardButton(
             text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            url=f"https://t.me/Misss_sona_bot}?startgroup=true",
         ),
     ],
     [
@@ -133,22 +133,22 @@ PNG_BTN = [
     [
          InlineKeyboardButton(
              text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
-             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+             url=f"https://t.me/Misss_sona_bot}?startgroup=true",
          ),
      ],
      [
          InlineKeyboardButton(
              text="✨ sᴜᴘᴘᴏʀᴛ ✨", 
-             url=f"https://t.me/{SUPPORT_GRP}",
+             url=f"https://t.me/TheLove2Forever}",
          ),
      ],
 ]
 HELP_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {BOT_NAME}**</u>
+<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}**</u>
 <u>**ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**</u>
 **ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:/**
 **──────────────**
-<b>||©️ @{OWNER_USERNAME}||</b>
+<b>||©️ @{ii_Romana_ii}||</b>
 """
 BACK = [
      [
@@ -183,7 +183,7 @@ PNG_BTN = [
     [
          InlineKeyboardButton(
              text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
-             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+             url=f"https://t.me/Miss_Sonaa_bot}?startgroup=true",
          ),
      ],
      [
@@ -194,12 +194,12 @@ PNG_BTN = [
 ]
 
 TOOLS_DATA_READ = f"""
-<u>**ᴛᴏᴏʟs ғᴏʀ {BOT_NAME} ᴀʀᴇ:**</u>
+<u>**ᴛᴏᴏʟs ғᴏʀ {𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮} ᴀʀᴇ:**</u>
 **➻ ᴜsᴇ `/repo` ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
 **──────────────**
-**➻ ᴜsᴇ `/ping` ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {BOT_NAME}**
+**➻ ᴜsᴇ `/ping` ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}**
 **──────────────**
-<b>||©️ @{OWNER_USERNAME}||</b>
+<b>||©️ @{ii_Romana_ii}||</b>
 """
 
 async def is_served_user(user_id: int) -> bool:
@@ -243,11 +243,11 @@ async def add_served_chat(chat_id: int):
     return await chatsdb.insert_one({"chat_id": chat_id})
 
 CHATBOT_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {BOT_NAME}**</u>
+<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}**</u>
 **➻ ᴜsᴇ `/chatbot` ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
 **๏ ɴᴏᴛᴇ ➻ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀᴛʙᴏᴛ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
 **───────────────**
-<b>||©️ @{OWNER_USERNAME}||</b>
+<b>||©️ @{ii_Romana_ii}||</b>
 """
 CHATBOT_BACK = [
         [     
@@ -264,36 +264,36 @@ HELP_START = [
 
 HELP_BUTN = [
      [
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
+           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/Miss_Sonaa_bot}?start=help"),
            InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
      ],
 ]
 
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),  
+           InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/TheLove2Forever}"),  
            InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", url=f"https://t.me/{OWNER_USERNAME}"), 
+           InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", url=f"https://t.me/ii_Romana_ii}"), 
            InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
       ],
       [ 
-           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),  
+           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/TheLove2Forever}"),  
            InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/its-star-boi/Candy_chatbot)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}](https://t.me/Miss_Sonaa_bot}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://t.me/TheLove2Forever)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/TheLove2Forever}).\n<b>||©️ @Miss_Sonaa_bot}||</b>"
 
 ABOUT_READ = f"""
-**➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
-**➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ʀᴇᴘʟɪᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴏ ᴀ ᴜsᴇʀ.**
+**➻ [{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}](https://t.me/Miss_Sonaa_bot}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
+**➻ [{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}](https://t.me/Miss_Sonaa_bot}) ʀᴇᴘʟɪᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴏ ᴀ ᴜsᴇʀ.**
 **➻ ʜᴇʟᴘs ʏᴏᴜ ɪɴ ᴀᴄᴛɪᴠᴀᴛɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs.**
 **➻ ᴡʀɪᴛᴛᴇɴ ɪɴ [ᴘʏᴛʜᴏɴ](https://www.python.org) ᴡɪᴛʜ [ᴍᴏɴɢᴏ-ᴅʙ](https://www.mongodb.com) ᴀs ᴀ ᴅᴀᴛᴀʙᴀsᴇ**
 **──────────────**
-**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
+**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}](https://t.me/Miss_Sonaa_bot})**
 """
-@bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
+@bot.on_message(filters.command(["start", "aistart", f"start@{Miss_Sonaa_bot}"]))
 async def restart(client, m: Message):
     if m.chat.type == "private":
         accha = await m.reply_text(
@@ -312,7 +312,7 @@ async def restart(client, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo = random.choice(PHOTO),
-            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
+            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}](t.me/Miss_Sonaa_bot})**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
@@ -414,7 +414,7 @@ async def repo(client, message):
        disable_web_page_preview=True,
     )
 
-@bot.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["+", ".", "/", "-", "?", "$"]))
+@bot.on_message(filters.command(["help", f"help@{Miss_Sonaa_bot}"], prefixes=["+", ".", "/", "-", "?", "$"]))
 async def restart(client, m: Message):
     if m.chat.type == "private":
         hmm = await m.reply_photo(
@@ -437,7 +437,7 @@ async def get_st(_, msg: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
     await msg.reply_photo(photo="https://te.legra.ph/file/2d5b054acddf865d4d83e.png",
-                          caption=f"""ᴛᴏᴛᴀʟ sᴛᴀᴛs ᴏғ {BOT_NAME}
+                          caption=f"""ᴛᴏᴛᴀʟ sᴛᴀᴛs ᴏғ {𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}
           ➻ **ᴄʜᴀᴛs :** {chats}
           ➻ **ᴜsᴇʀs :** {users}"""
     )
@@ -454,13 +454,13 @@ async def ping(client, message: Message):
     ms = (datetime.now()-start).microseconds / 1000
     await message.reply_photo(
         photo=random.choice(PHOTO),
-        caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Developer](https://t.me/{OWNER_USERNAME})||</b>",
+        caption=f"нey вαву!!\n**[{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮}](t.me/Miss_Sonaa_bot})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Developer](https://t.me/ii_Romana_ii})||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
 
                   
 @bot.on_message(
-    filters.command(["chatbot", f"chatbot@{BOT_USERNAME}"])
+    filters.command(["chatbot", f"chatbot@{Miss_Sonaa_bot}"])
     & ~filters.private)
 async def chatonoff(client: Client, message: Message):
     if not message.from_user:
@@ -697,5 +697,5 @@ async def candyprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ɴᴏᴡ ғᴜᴄᴋ ᴏғғ! ᴀɴᴅ ɢᴏ ᴛᴏ @Best_FriendsFor_Ever ʙɪᴛᴄʜ!!")      
+print(f"{𝗠𝗶𝘀𝘀 𝗦𝗼𝗻𝗮} ɪs ᴀʟɪᴠᴇ! ɴᴏᴡ ғᴜᴄᴋ ᴏғғ! ᴀɴᴅ ɢᴏ ᴛᴏ @TheLove2Forever ʙɪᴛᴄʜ!!")      
 bot.run()
